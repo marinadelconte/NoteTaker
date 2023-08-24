@@ -10,8 +10,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What did you learn?
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To run this application, you first want to run "npm i" in the terminal. 
 
 ## Usage
 
@@ -22,10 +21,5 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ![alt text](assets/images/screenshot.png)
 
 ## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+For this assignment we were provided with starter code, including all the code for the front-end. I used past class activities and examples as references when working on this assignment. I also worked with my tutor when I hit a roadblock.
 

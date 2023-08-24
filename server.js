@@ -4,13 +4,16 @@ const fs = require('fs');
 const app = express();
 const PORT = 3001;
 
+const uuid = require('./uuid');
+const note = require("./db/db.json");
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 
 app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, './public/notes.html'))
+  res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
 app.get('*', (req, res) =>
@@ -20,20 +23,23 @@ app.get('*', (req, res) =>
 app.get('/api/notes', (req, res) => {
   res.json(`${req.method} request received`);
   console.info(`${req.method} request received`);
+
 });
 
 app.post('/api/notes', (req, res) => {
   console.info(`${req.method} request received`);
 
+app.put()
+
 
   const { note } = req.body;
-
   
   if (note) {
      const newNote = {
       title,
       note_id: uuid(),
     };
+    
 note.push(newNote)
     const noteString = JSON.stringify(note, null, 2);
 
