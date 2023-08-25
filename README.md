@@ -8,8 +8,11 @@ To run this application from vs code, you first want to run "npm i" in the termi
 
 ## Usage
 Below is a screenshot of the live webpage:
+![image](https://github.com/marinadelconte/NoteTaker/assets/137957098/2356ccc7-a930-48ae-95af-22750c14575f)
+
 
 The webpage can be accessed via the following link:
+https://infinite-stream-27737-6e72746bfb63.herokuapp.com/
 
 ## Credits
 For this assignment we were provided with starter code, including all the code for the front-end. I used past class activities and examples as references when working on this assignment. I also worked with my tutor when I hit a roadblock.
